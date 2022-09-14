@@ -1,4 +1,6 @@
 <h1>Order a pizza!</h1>
+
+<h2>{{note}}</h2>
 <form method="POST" action="{% url 'order' %}">
     {% csrf_token %}
     {{ pizzaForm }}
