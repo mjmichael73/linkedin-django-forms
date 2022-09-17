@@ -3,7 +3,6 @@ from .models import Pizza, Size
 
 
 class PizzaForm(forms.ModelForm):
-    image = forms.ImageField()
 
     class Meta:
         model = Pizza
